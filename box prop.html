@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box properties</title>
+</head>
+<head>
+    <style>
+        .box1{
+            width: 300px;
+            height: 150px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 4px dashed hotpink;
+            box-sizing: content-box;
+            box-shadow: 5px 5px 15px yellowgreen;
+            background-color: lightgreen;
+            text-align: center;
+            align-content: center;
+        }
+        .box2{
+            width: 300px;
+            height: 150px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 4px dotted yellow;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 15px hotpink;
+            background-color: lightseagreen;
+            text-align: center;
+            align-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">box properties</h1>
+    <div class="box1">Box1 box-sizing content-box<br>
+    width & height includes only content</div>
+    <div class="box2"> box2 box-sizing border box<br>
+    width & height includes content</div>
+</body>
+</html>

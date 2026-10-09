@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <style>
+        a:link{color: red;}
+        a:visited{color: green;}
+        a:hover{font-size: 25px; color: hotpink;}
+        a:active{color: blue;}
+        input:focus{background-color: red; border: 10px solid orchid;}
+        ul li:nth-child(2){color: lightgreen;font-weight: bold;font-size: 30px;}
+        ul li:not(.special){font-style: italic; background-color: lightpink;}
+    </style>
+</head>
+<body>
+    <h2> Styling link depending on state</h2>
+    <p><b><a href="https://www.youtube.com" target="_blank">This is Link</a></b></p>
+    <input type="text" id="name" placeholder="click to focus">
+    <ul><li>first item</li>
+    <li>second item(nth-child)</li>
+    <li class="special">hello</li>
+    <li>forth item</li>
+    </ul>
+
+</body>
+</html>
