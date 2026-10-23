@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <style>
+        .grid-fr{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            /* px ma height and width change na thaqy and fr ma change thay; */
+            grid-template-rows: 1fr 2fr 3fr 4fr;
+            gap: 10px; background-color: blue; padding: 10px; margin-bottom: 40%;
+            border-width: 5; border-color: hotpink; border-style: solid;
+        }
+        .item{
+            background-color: yellow; color:black; text-align: center;
+            padding: 20px; border-radius: 5px; font-size: 18px; border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-fr">
+        <div class="item"> 200px(fixed)</div>
+        <div class="item">1fr (flexible)</div>
+        <div class="item">2fr (flexible)</div>
+        <div class="item">4fr (flexible)</div>
+        <div class="item">4fr (flexible)</div>
+        <div class="item">4fr (flexible)</div>
+        <div class="item"> 200px(fixed)</div>
+        <div class="item">1fr (flexible)</div>
+        <div class="item">2fr (flexible)</div>
+        <div class="item">4fr (flexible)</div>
+        <div class="item">4fr (flexible)</div>
+        <div class="item">4fr (flexible)</div>
+
+
+    </div>
+    
+</body>
+</html>

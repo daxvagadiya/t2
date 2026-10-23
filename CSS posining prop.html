@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+        <style>
+            .container{margin-top:50px ; height: 800px;border: 2px solid black; position: relative;}
+            .container1{margin-top:30px ; height: 1000px;border: 2px solid hotpink;}
+            .test{margin-left: 20px; height: 100px; width: 100px;text-align: center; background-color: lightblue;}
+            #test1{background:aqua;position: static;} 
+            #test2{background:red ;position: relative;top: 50px; left: 40px;z-index: 1;}
+            #test3{background:yellow ;position: absolute;top: 100px; right: 0px;}
+            #test4{background:blue ;position: fixed;top: 50px; right: 9px;}
+            #test5{background-color: green; position: sticky; top: 0px;}
+
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="test" id="test1"> static</div>
+        <div class="test" id="test2"> Relative</div>
+        <div class="test" id="test3"> absolute</div>
+        <div class="test" id="test4"> fixed</div>
+        <div class="test" id="test5"> sticky</div>
+
+
+    </div>
+    <div class="container1">container1</div>
+</body>
+
+</html>

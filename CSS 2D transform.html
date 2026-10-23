@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <style>
+        div{
+            width: 200px; height: 200px; background-color: red; border: 3px solid blue;
+            padding: 10px; margin-top: 200px; margin-left: 200px;
+        }
+        div:hover{transform: translate x(200px);
+            /* it also concider negative value */
+        }
+
+        div:hover{transform: rotate(250deg) translate(100px);
+            
+            /* it also concider negative value */
+        }
+
+        div:hover{
+            transform: scale(.5,1.5);
+             /* scale(.5,1.5)/scalex(05)/scaleY(1.5) */
+
+            transform: skewX(20deg)/skewY(.5deg)/skew(1.5deg,1.5deg);
+            /* skewX(20deg)/skewY(.5deg)/skew(1.5deg,1.5deg) */
+            
+            /* it also concider negative value */
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="meme.jpeg" >
+    </div>
+</body>
+</html>

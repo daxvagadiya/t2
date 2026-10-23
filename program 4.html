@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <style>
+        div{height: 300px; width: 300px; background-color: lightblue; margin-top: 10px; margin-left: 10px; 
+        animation-name: Example;
+        animation-duration: 10s;
+        animation-delay: -2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        position: relative;
+
+        }
+        @keyframes Example{
+            0%{background-color: lightcyan; left: 0px; top: 0px;rotate: 0deg; border-radius: 0%;font-size: 10px;scale: 1;}
+            25%{background-color: hotpink; left: 300px; top: 0px;rotate: 90deg;border-radius: 12.5%;font-size: 25px;scale: (2,2);}
+            50%{background-color: lightcoral;left: 300px; top: 300px;rotate: 180deg;border-radius:25% ;font-size: 50px;scale: (3,3);}
+            75%{background-color: lightskyblue;left: 0px; top: 300px; rotate: 270deg;border-radius: 37.5%;font-size:75px;scale: (4,4);}
+            100%{background-color: lightgreen;left: 0px; top: 0px;rotate: 360deg;border-radius: 50%;font-size: 100px;scale: (5,5);}
+        }
+    </style>
+</head>
+<body>
+    <div align="center">hello</div>
+</body>
+</html>
